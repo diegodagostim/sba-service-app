@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SBA Workshop App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      action="https://formsubmit.co/63b1b2ece8fb05e66b06e185e3da32be"
+      method="post"
+      role="form"
+      class="email-form"
+    >
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="text" name="_honey" style="display: none" />
+      <input
+        type="hidden"
+        name="_next"
+        target="_blank"
+        value="form_submitted.com"
+      />
+
+      <h2>SBA Service Control</h2>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="Date" required />
+      </div>
+      <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="Time" />
+      </div>
+      <div class="form-group">
+        <label for="customer">Customer:</label>
+        <input type="customer" id="customer" name="Customer" required />
+      </div>
+      <div class="form-group">
+        <label for="vrn">VRN:</label>
+        <input type="vrn" id="vrn" name="VRN" required />
+      </div>
+      <div class="form-group">
+        <label for="make">Make:</label>
+        <input type="make" id="make" name="Make" required />
+      </div>
+      <div class="form-group">
+        <label for="model">Model:</label>
+        <input type="model" id="model" name="Model" required />
+      </div>
+      <div class="form-group">
+        <label for="note">Note:</label>
+        <textarea id="note" name="note" required></textarea>
+      </div>
+      <button type="submit">Send Form</button>
+      <button type="reset">Reset Form</button>
+    </form>
+  </body>
+</html>
