@@ -1,5 +1,5 @@
 body {
-  padding: 20px;
+  padding: 25px;
 }
 
 form {
@@ -102,6 +102,15 @@ button[type="reset"]:hover {
   background-color: #be8904;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: rgb(232, 231, 230);
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(201, 202, 202);
+}
+
 .mainPage {
   display: flex;
   flex-direction: column;
@@ -109,9 +118,16 @@ button[type="reset"]:hover {
 
 .btn {
   font-size: 14px !important;
+
+  margin: 10px;
 }
 
 .mainPage a:hover {
   background-color: #ffffff !important;
   color: rgb(13, 13, 132) !important;
+}
+
+.divForm {
+  display: flex;
+  flex-direction: column;
 }
