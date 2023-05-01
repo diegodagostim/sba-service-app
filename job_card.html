@@ -15,7 +15,7 @@
     <div class="divForm">
       <form
         action="https://formsubmit.co/63b1b2ece8fb05e66b06e185e3da32be"
-        method="post"
+        method="POST"
         role="form"
         class="email-form"
       >
@@ -30,37 +30,98 @@
         />
 
         <h2>Job Card</h2>
+
+        <div class="form-group dropdown">
+          <label for="customer">CUSTOMER / CLIENTE</label>
+          <select name="customer" id="customer">
+            <option value="OTL">OTL</option>
+            <option value="YOLK">YOLK</option>
+            <option value="SBL">SBL</option>
+            <option value="CRISTIAN">CRISTIAN</option>
+          </select>
+        </div>
         <div class="form-group">
-          <label for="date">Date:</label>
+          <label for="date">DATE / DATA</label>
           <input type="date" id="date" name="Date" required />
         </div>
+
         <div class="form-group">
-          <label for="time">Time:</label>
-          <input type="time" id="time" name="Time" />
+          <label for="vrn">VRN / PLACA</label>
+          <input type="text" id="vrn" name="VRN" required />
         </div>
         <div class="form-group">
-          <label for="customer">Customer:</label>
-          <input type="customer" id="customer" name="Customer" required />
+          <label for="make">MAKE / MARCA</label>
+          <input type="text" id="make" name="Make" required />
         </div>
         <div class="form-group">
-          <label for="vrn">VRN:</label>
-          <input type="vrn" id="vrn" name="VRN" required />
+          <label for="model">MODEL / MODELO</label>
+          <input type="text" id="model" name="Model" required />
         </div>
         <div class="form-group">
-          <label for="make">Make:</label>
-          <input type="make" id="make" name="Make" required />
+          <input
+            type="checkbox"
+            id="padsFront"
+            name="padsFront"
+            value="padsFront"
+          />
+          <label for="padsFront"> FRONT BRAKE PADS / PASTILHA FRENTE</label>
+          <br />
+          <input
+            type="checkbox"
+            id="padsRear"
+            name="padsRear"
+            value="padsRear"
+          />
+          <label for="padsRear"> REAR BRAKE PADS / PASTILHA TRASEIRA</label>
+          <br />
+          <input
+            type="checkbox"
+            id="discFront"
+            name="discFront"
+            value="discFront"
+          />
+          <label for="discFront"> FRONT BRAKE DISC / DISCO FRENTE</label>
+          <br />
+          <input
+            type="checkbox"
+            id="discRear"
+            name="discRear"
+            value="discRear"
+          />
+          <label for="discRear"> REAR BRAKE DISC / DISCO TRASEIRA</label>
+          <br />
+          <input
+            type="checkbox"
+            id="oilChange"
+            name="oilChange"
+            value="oilChange"
+          />
+          <label for="oilChange"> OIL CHANGE / TROCA DE OLEO</label>
+          <br />
+          <input
+            type="checkbox"
+            id="fullService"
+            name="fullService"
+            value="fullService"
+          />
+          <label for="fullService"> FULL SERVICE / SERVICE COMPLETO</label>
+          <br />
+          <input
+            type="checkbox"
+            id="bodywork"
+            name="bodywork"
+            value="bodywork"
+          />
+          <label for="fullService"> BODYWORK / FUNILARIA</label>
         </div>
+
         <div class="form-group">
-          <label for="model">Model:</label>
-          <input type="model" id="model" name="Model" required />
+          <label for="note">NOTES | OBSEVACAO </label>
+          <textarea id="note" name="note"></textarea>
         </div>
-        <div class="form-group">
-          <label for="note">Note:</label>
-          <textarea id="note" name="note" required></textarea>
-        </div>
-        <button type="submit">Send Form</button>
-        <button type="reset">Reset Form</button><br /><br />
-        <button type="#"><a href="index.html">BACK</a></button>
+        <button type="submit">SEND / ENVIAR</button>
+        <button type="reset">RESET / LIMPAR</button><br /><br />
+        <button type="#"><a href="index.html">BACK / VOLTAR</a></button>
       </form>
     </div>
     <script
